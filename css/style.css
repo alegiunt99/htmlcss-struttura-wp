@@ -1,0 +1,18 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 95%;
+    margin: 20px auto 20px;
+}
+
+header {
+    height: 100px;
+    background-color: #e46ed4;
+    line-height: 100px;
+    vertical-align: middle;
+    padding-left: 10px;
+}
