@@ -4,15 +4,31 @@
     box-sizing: border-box;
 }
 
+.clearfix::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+
 .container {
     width: 95%;
     margin: 20px auto 20px;
 }
 
-header {
+.debug header{
     height: 100px;
     background-color: #e46ed4;
     line-height: 100px;
     vertical-align: middle;
     padding-left: 10px;
+}
+
+.debug menu{
+    height: 450px;
+    background-color: #e7d36f;
+}
+
+.debug main{
+    height: 500px;
+    background-color: #2e2aff;
 }
