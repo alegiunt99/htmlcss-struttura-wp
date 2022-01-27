@@ -32,3 +32,36 @@
     height: 500px;
     background-color: #2e2aff;
 }
+
+main .top-col{
+    background-color: #b5b4d3;
+    width: 100%;
+    height: 20% ;
+}
+
+main .left-col{
+    float: left;
+    height: 72%;
+    margin-top: 20px;
+    width: 25%;
+    background-color: #b5b4d3;
+}
+
+main .right-col{
+    float: right;
+    height: 72%;
+    margin-top: 20px;
+    width: 25%;
+    background-color: #b5b4d3;
+
+ 
+}   
+
+main .center-col{
+    float: left;
+    background-color: #b5b4d3;
+    width: 47%;
+    height: 72%;
+    margin-top: 20px;
+    margin-left: 20px;
+}
